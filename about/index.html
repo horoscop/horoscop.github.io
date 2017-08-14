@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="t-green">
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,25 +8,26 @@
   <title>About</title>
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
-
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700|Roboto+Mono:400,500' rel='stylesheet' type='text/css'>
+  <style>
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
+</style>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/about/">
   <link rel="alternate" type="application/rss+xml" title="Horoscop" href="http://localhost:4000/feed.xml">
 </head>
 
-  <body>
-    <nav class="c-navigation ">
+<body>
+  <nav class="c-navigation ">
   <div class="c-navigation__container u-container">
-    <a class="c-navigation__item " href="/">Home</a>
-    <a class="c-navigation__item " href="/articles/">Articles</a>
-    <a class="c-navigation__item is-active" href="/about/">About</a>
+    <a class="c-navigation__item " href="/">Acasă</a>
+    <a class="c-navigation__item " href="/articles/">Articole</a>
+    <a class="c-navigation__item is-active" href="/about/">Despre</a>
   </div>
 </nav>
 
 
-    <article class="c-article">
+  <article class="c-article">
   <header class="c-header c-article__header">
     <div class="u-container">
       <h1 class="c-header__title">About</h1>
@@ -42,11 +43,20 @@
 </article>
 
 
-    <footer class="c-footer">
+  <footer class="c-footer">
   <div class="u-container c-footer__container">
     <p>&copy; Horoscop 2017</p>
   </div>
 </footer>
 
-  </body>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-104475001-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+</body>
 </html>
